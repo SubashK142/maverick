@@ -1,0 +1,39 @@
+/* SlideInRight.css */
+
+.slide-in-right {
+    width: 500px;
+    height: 400px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 30%;
+    margin-right: 150px;
+   
+    right: -700px; /* Start position off-screen to the right */
+    transition: right 2s ease-in-out; /* Add a sliding animation for 'right' */
+  }
+  
+  .slide-in-right.active {
+    right: 0; /* Slide in from the right when the 'active' class is applied */
+  }
+  .right{
+    color: aliceblue;
+  }
+
+  /* CSS for custom input line */
+#custom-input {
+  width: 400px;
+  margin-top:-150px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  border: none; /* Remove the default border */
+  border-bottom: 2px solid #151d23; /* Add a custom bottom border */
+  background-color: transparent; /* Remove the background color */
+  outline: none; /* Remove the outline when focused */
+  padding: 15px 0; /* Add padding for spacing */
+  transition: border-bottom 0.3s; /* Add a transition effect for the border */
+}
+
+/* Style when the input is focused */
+#custom-input:focus {
+  border-bottom: 2px solid #000000; /* Change the border color on focus */
+}

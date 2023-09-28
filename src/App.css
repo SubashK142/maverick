@@ -1,0 +1,11 @@
+.App{
+  background-color: rgb(0, 0, 0);
+  height:103vh;
+  width: 100%;
+  margin-top: -22px;
+}
+
+body {
+  overflow: hidden; /* Hides the scroll bar but allows scrolling */
+  
+}

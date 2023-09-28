@@ -1,0 +1,18 @@
+/* SlidingDiv.css */
+
+.slide-in {
+    width: 400px;
+    height: 300px;
+    background-color: #000000;
+    position: absolute;
+    top: 35%;
+    margin-left: 150px;
+    
+    left: -400px; /* Start position off-screen */
+    transition: left 2s ease-in-out; /* Add a sliding animation */
+  }
+  
+  .slide-in.active {
+    left: 0; /* Slide in when the 'active' class is applied */
+  }
+  
